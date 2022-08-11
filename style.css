@@ -261,9 +261,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     background: transparent;
     outline: none;
     color: #57524c;
-    
+    margin: 0.4px;
     border: solid 1px #67605b;
-    border-bottom: none;
     
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -291,7 +290,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     font-size: 1.1em;
     
     border: solid 1px #6c6560;
-    
+
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
