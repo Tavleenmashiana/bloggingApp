@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgb(163, 132, 147);
+    background-color: rgba(140,144,175);
     color: #fff;
    }
    .nav-links a {
@@ -113,9 +113,42 @@
     max-width: 100%;
     width: 1250px;
 }
-.content{
+.contents{
     position: absolute;
     font-size: 1rem;
     top: 40%;
     left: 3%;
+}
+.poster{
+    text-align:center;
+    background-color: rgb(203, 172, 188)  ;
+    width:20%;
+    background-repeat:no-repeat;
+    width:350px;
+    height:150px;
+    align-content: center;
+    margin: 0.3rem;  
+}
+
+#mycontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    
+}
+
+.content {
+    background-color:rgb(168,168,192);
+    margin: 3%;
+    width: 30%;
+    position: relative;
+    padding: 1rem;
+}
+
+#postss{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
