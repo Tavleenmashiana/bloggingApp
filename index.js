@@ -25,3 +25,16 @@ xhr.onreadystatechange =() => {
 }
 };
 xhr.send()
+
+document.getElementById("submits").addEventListener("click",(e)=>{
+    e.preventDefault()
+    const val=`
+    <div class="content">
+    <h2 class="card-header">${document.getElementById("email").value}</h2>
+    <div class="card-body">
+        <p class="card-text">${document.getElementById("messages").value}</p>
+    </div>
+</div>
+    `
+    document.querySelector('#mycontainer').innerHTML += val
+})

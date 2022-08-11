@@ -12,14 +12,18 @@
 <body>
   <section>
   <nav class="navbar">
-    <div class="logo">UBLOG</div>
+    <div class="logo">
+      <img src="logo.png" width="50" height="50">
+       &nbsp UBLOG</div>
     <ul class="nav-links">
       <input type="checkbox" id="checkbox_toggle" />
       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
       <div class="menu">
         <li><a href="/">Home</a></li>
-        <li><a href="/">Post</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="/">Posts</a></li>
+        <li><a href="/">Add Blog</a></li>
+        <li><a href="./login.html">Login</a></li>
+        
       </div>
     </ul>
     
@@ -34,15 +38,30 @@
   </div>
   </section>
 
-  <section style="background-color: rgb(228, 210, 214);">
+  <section style="background-color:rgb(122, 117, 148);">
     <h1 id="postss"> POSTS </h1>
   <div id="mycontainer">
   </div>
   <script src="./index.js"></script>
   </section>
-  <section>
+<!-- -------------FORM --------------------- -->
+  <section class="contact" id="contact">
+
+    <header>ADD YOUR BLOG :)</header>
+
+    <form id="form">
+        
+          <input id="name" type="text" placeholder="NAME">
+          <input id="email" type="text" placeholder="BLOG HEADING">
+          <textarea id="messages" type="text" placeholder="WRITE CONTENT...."></textarea>
+          <input id="submits" type="submit" placeholder="Submit">
       
-  </section>
+    </form>
+  
+</section>
+<footer>
+  <p class="footer"><br>Made by: Tavleen Kaur<br></p>
+</footer>
 </body>
 
 </html>
